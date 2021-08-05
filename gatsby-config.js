@@ -24,6 +24,7 @@ module.exports = {
       options: {
         apiURL: "http://localhost:1337",
         collectionTypes: ["job", "project"],
+        singleTypes: ["about"],
         queryLimit: 1000,
       },
     },
