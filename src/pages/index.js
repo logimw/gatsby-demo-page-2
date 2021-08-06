@@ -11,6 +11,7 @@ const IndexPage = () => {
   } = useStaticQuery(featuredProjectsQuery)
   return (
     <>
+      <Seo title="Home" />
       <main>
         <Hero />
         <Services />
