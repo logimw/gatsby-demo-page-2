@@ -8,7 +8,6 @@ const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleSidebar = () => {
-    console.log("dupa")
     setIsOpen(!isOpen)
   }
   return (
